@@ -1,0 +1,28 @@
+{
+  "name": "citizen-tokens",
+  "version": "0.0.0",
+  "description": "Citizen Design System Tokens",
+  "author": "Stephen James <sjames@mulesoft.com>",
+  "homepage": "https://github.com/mulesoft-ux/citizen#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "dist": "dist",
+    "src": "src"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mulesoft-ux/citizen.git"
+  },
+  "scripts": {
+    "compile": "rollup -c",
+    "compile:watch": "rollup -c -w",
+    "docs:dev": "npm run compile:watch"
+  },
+  "bugs": {
+    "url": "https://github.com/mulesoft-ux/citizen/issues"
+  }
+}
