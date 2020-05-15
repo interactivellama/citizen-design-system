@@ -16,14 +16,19 @@
   "scripts": {
     "compile": "rollup -c",
     "compile:watch": "rollup -c -w",
-    "docs:dev": "npm run compile:watch"
+    "docs:dev": "npm run compile:watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "bugs": {
     "url": "https://github.com/mulesoft-ux/citizen/issues"
   },
   "dependencies": {
+    "@storybook/cli": "^5.3.18",
     "@types/styled-components": "^4.4.1",
     "citizen-tokens": "^0.0.0",
+    "init": "^0.1.2",
+    "sb": "^5.3.18",
     "styled-components": "^4.4.1"
   }
 }
