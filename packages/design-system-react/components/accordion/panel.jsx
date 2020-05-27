@@ -76,7 +76,7 @@ const AccordionPanel = ({
 			})}
 		>
 			<div className="slds-accordion__summary">
-				<h3 className="slds-text-heading_small slds-accordion__summary-heading slds-has-flexi-truncate">
+				<h3 className="slds-accordion__summary-heading">
 					<Button
 						aria-controls={`${id}-accordion-panel`}
 						aria-expanded={expanded}
