@@ -130,7 +130,7 @@
     "js-beautify": "1.6.12",
     "js-yaml": "3.13.1",
     "lint-staged": "4.0.4",
-    "lodash": "4.17.15",
+    "lodash": "4.17.21",
     "lodash-inflection": "1.5.0",
     "lodash.get": "4.4.2",
     "lodash.isarray": "4.0.0",
